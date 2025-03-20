@@ -5,8 +5,11 @@ Note: an intersection between a bird’s flight trajectory with a rotor-swept ar
 Using QGIS, I noted the corner coordinates of the minimumum bounding recantangle, and the wind turbines. THe coorner coordinates defined the edges that the bird would randomly enter the area of interest. To ensure the bird was flying forwards, the bird would enter at a random point on a randomly chosen edge, and leave the rectangle at a random point of randomly chosen but different edge. The flight height was randomly chosen between a defined range for the specific species of bird. The bird's wingspan was incorporated into its trajecetory to increase the area suseptible to collision. 
 The code runs 10,000 random bird flights. I then noted the probability and repeated this 10 times so I could calculate a mean and standard deviation.
 
-In my investiagtion, I chose to only focus on raptors. a) They are most at risk because they are long-lived species with relatively low reproductive rate. b) Their flying height range is more hazardous c) Larger wingspans
-The species I looked at were owls (Barn Owl, Eurasian Scops Owl, Long-Eared Owl, Tawny Owl, Eurasian Eagle-Owl, and Little Owl); falcons (Common Kestrel, Eleonora’s Falcon, Lesser Kestrel, and Peregrine Falcon); eagles/hawks/kites (Cinereous Vulture, Common Buzzard, Eurasian Imperial Eagle, Eurasian Sparrowhawk, European Honey Buzzard, Golden Eagle, Lesser Spotted Eagle, Long-legged Buzzard, Short-toed Snake Eagle, Steppe Eagle)
+In my investiagtion, I chose to only focus on raptors. This is because:
+a) They are most at risk because they are long-lived species with relatively low reproductive rate. 
+b) Their flying height range is more hazardous 
+c) Larger wingspans.
+The species I looked at were owls (Barn Owl, Eurasian Scops Owl, Long-Eared Owl, Tawny Owl, Eurasian Eagle-Owl, and Little Owl); falcons (Common Kestrel, Eleonora’s Falcon, Lesser Kestrel, and Peregrine Falcon); and eagles/hawks/kites (Cinereous Vulture, Common Buzzard, Eurasian Imperial Eagle, Eurasian Sparrowhawk, European Honey Buzzard, Golden Eagle, Lesser Spotted Eagle, Long-legged Buzzard, Short-toed Snake Eagle, Steppe Eagle)
 
 The proposal for Samos outiles the use of 4 different types of tubines: 15 V90s, 2 V100s, 8 V110s, 32 V120s (57 turbines total); 8.3 turbines per km2. The are all isolated to Eastern Samos.
 
